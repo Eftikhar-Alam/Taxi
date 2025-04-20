@@ -9,13 +9,13 @@ public class WaypointNode : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawSphere(transform.position, 5f);
 
-        foreach (WaypointNode node in connections)
+        foreach (WaypointNode nod in connections)
         {
-            if (node != null)
+            if (nod != null)
             {
                 Gizmos.color = Color.green;
-                Gizmos.DrawLine(transform.position, node.transform.position);
-                Vector3 dir = (node.transform.position - transform.position).normalized;
+                Gizmos.DrawLine(transform.position, nod.transform.position);
+                Vector3 dir = (nod.transform.position - transform.position).normalized;
                 Gizmos.DrawRay(transform.position, dir * 0.5f);
             }
         }

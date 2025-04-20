@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TaxiSimulation.unity
+    guid: 78df4465bd8433e4790f0e9d250d3fd1
   m_configObjects: {}
