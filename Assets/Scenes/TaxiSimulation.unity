@@ -9128,8 +9128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Data: {fileID: 11400000, guid: 0bb0d0ecc7e8600448f34bcc1bf5a1b4, type: 2}
-  totalNumberOfTaxi: 18
-  totalNumberOfPassenger: 30
+  totalNumberOfTaxi: 12
+  totalNumberOfPassenger: 22
   passengersSpawnPos:
   - {fileID: 756208365}
   - {fileID: 78412605}
